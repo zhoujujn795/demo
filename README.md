@@ -9,6 +9,12 @@
 - Phase 3 已完成：行情 API、自部署 OpenAI 兼容 LLM、Supabase 服务集成（需配置环境变量后可用）。
 - Phase 4 已完成：界面细节优化、README 交付信息补齐、Render 部署配置。
 
+## 前端页面预览
+
+> 首页（浅色主题）
+
+![前端首页截图](docs/images/frontend-home.png)
+
 ## 项目结构
 
 ```text
