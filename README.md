@@ -2,6 +2,10 @@
 
 一个精简的全栈面板：输入股票代码，后端获取行情并调用自部署 LLM（OpenAI 兼容接口）生成结构化分析结果，并保存到 Supabase。生产部署时由 Express 同时托管 API 和前端静态资源。
 
+## 技术栈图标
+
+[![Tech Stack](https://skillicons.dev/icons?i=react,vite,nodejs,express,python,supabase,npm,github&theme=light)](https://github.com/tandpfun/skill-icons)
+
 ## 当前进度
 
 - Phase 1 已完成：前端骨架、后端骨架、环境变量模板、本地开发命令。
