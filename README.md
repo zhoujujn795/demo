@@ -19,6 +19,12 @@
 
 ![前端首页截图](docs/images/frontend-home.png)
 
+## Prompt 截图
+
+> 分析提示词文件（`server/prompts/stockAnalysisPrompt.js`）
+
+![Prompt 文件截图](docs/images/prompt-source.png)
+
 ## 项目结构
 
 ```text
