@@ -36,3 +36,15 @@ ai-stock-*.png
 # python cache
 __pycache__/
 *.pyc
+
+# AL / Business Central template leftovers from remote init
+.alcache/
+.alpackages/
+.snapshots/
+.output/
+*.app
+rad.json
+*.g.xlf
+*.bclicense
+*.flf
+TestResults.xml
