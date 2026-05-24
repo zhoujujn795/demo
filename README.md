@@ -117,3 +117,8 @@ pip install yfinance
 
 问题 3：本地与部署环境请求入口不一致。  
 处理：前端 API 基址可通过 `VITE_API_BASE_URL` 覆盖；生产默认由同一 Express 服务托管页面和 API。
+
+## 特别鸣谢
+
+- [OpenMarketView](https://github.com/jatoran/OpenMarketView)：提供了优秀的市场可视化与产品思路参考。  
+- [skill-icons](https://github.com/tandpfun/skill-icons)：用于 README 技术栈图标展示。  
