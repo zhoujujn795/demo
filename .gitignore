@@ -1,0 +1,38 @@
+# dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# build artifacts
+dist/
+build/
+.next/
+coverage/
+
+# env files
+.env
+.env.local
+.env.*
+.env.*.local
+!.env.example
+
+# logs and caches
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+.idea/
+.vscode/
+
+# local agent/runtime state
+.ccpanes/
+.claude/
+.playwright-mcp/
+
+# generated preview images
+ai-stock-*.png
+
+# python cache
+__pycache__/
+*.pyc

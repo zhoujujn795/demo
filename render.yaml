@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: ai-stock-dashboard
+    env: node
+    plan: free
+    autoDeploy: true
+    buildCommand: pip install yfinance && npm --prefix client install && npm --prefix server install && npm run build
+    startCommand: npm run start:server
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: STOCK_API_PROVIDER
+        value: yfinance
+      - key: PYTHON_BIN
+        value: python
+      - key: LLM_BASE_URL
+        sync: false
+      - key: LLM_API_KEY
+        sync: false
+      - key: LLM_MODEL
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
